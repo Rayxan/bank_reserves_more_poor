@@ -78,7 +78,7 @@ class Person(RandomWalker):
                         # give customer $8 from my wallet (may result in negative wallet)
                         customer.wallet += 8
                         self.wallet -= 8
-                    # 50% chance of trading $2
+                    # 50% chance of trading $5
                     else:
                         # give customer $5 from my wallet (may result in negative wallet)
                         customer.wallet += 5
