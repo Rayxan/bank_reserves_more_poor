@@ -76,13 +76,13 @@ class Person(RandomWalker):
                     # 50% chance of trading $5
                     if self.random.randint(0, 1) == 0:
                         # give customer $5 from my wallet (may result in negative wallet)
-                        customer.wallet += 8
-                        self.wallet -= 8
+                        customer.wallet += 5
+                        self.wallet -= 5
                     # 50% chance of trading $2
                     else:
                         # give customer $2 from my wallet (may result in negative wallet)
-                        customer.wallet += 5
-                        self.wallet -= 5
+                        customer.wallet += 2
+                        self.wallet -= 2
 
     def balance_books(self):
         # check if wallet is negative from trading with customer
