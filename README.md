@@ -7,7 +7,7 @@ A hipótese causal em questão foi criar um cenário onde existissem em maioria 
 Essas alterações foram feitas, apenas nos arquivos agents.py e model.py.
 
 
-No arquivo agents.py, as linhas alteradas foram a 79, 80, 84 e 85. E no arquivo model.py as linhas alteradas para testar a hipótese causal, foram as linhas 38 e 48. No arquivo 
+No arquivo agents.py, as linhas alteradas foram a 79, 80, 84 e 85. E no arquivo model.py as linhas alteradas para testar a hipótese causal, foram as linhas 38 e 48. No arquivo agents.py eu aumentei o valor da troca e no arquivo model.py eu diminui o número de pessoas da classe média.
 
 
 Para execução do código em questão onde foi testada a hipótese, basta rodar mesa runserver bank_reserves.
