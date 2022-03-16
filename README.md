@@ -5,3 +5,9 @@ O exemplo em questão utilizado para realização da tarefa 'bank_reserves', que
 A hipótese causal em questão foi criar um cenário onde existissem em maioria pessoas pobres, ou que o número de pessoas pobres fosse superior a pessoas de classe média ou ricas. Para isso atualizei as trocas que as pessoas devem fazer e diminui a quantidade de empréstimos que a pessoa pode fazer.
 
 Essas alterações foram feitas, apenas nos arquivos agents.py e model.py.
+
+
+No arquivo agents.py, as linhas alteradas foram a 79, 80, 84 e 85. E no arquivo model.py as linhas alteradas para testar a hipótese causal, foram as linhas 38 e 48. No arquivo 
+
+
+Para execução do código em questão onde foi testada a hipótese, basta rodar mesa runserver bank_reserves.
