@@ -35,7 +35,7 @@ def get_num_rich_agents(model):
 def get_num_poor_agents(model):
     """return number of poor agents"""
 
-    poor_agents = [a for a in model.schedule.agents if a.loans > 10]
+    poor_agents = [a for a in model.schedule.agents if a.loans > 5]
     return len(poor_agents)
 
 
@@ -45,7 +45,7 @@ def get_num_mid_agents(model):
     mid_agents = [
         a
         for a in model.schedule.agents
-        if a.loans < 10 and a.savings < model.rich_threshold
+        if a.loans < 5 and a.savings < model.rich_threshold
     ]
     return len(mid_agents)
 
